@@ -1,0 +1,64 @@
+body {
+    background-image: url("Things/meal.gif");
+    background-size: cover;
+    font-family: Meal;
+    text-align: center;
+    color: #370617;
+    height: 100vh;
+}
+
+@font-face {
+    src: url("Things/KGBlankSpaceSketch.ttf");
+    font-family: Meal;
+}
+
+#border-meal {
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 80%;
+    display: block;
+    margin: 20px auto 0;
+}
+
+h1, h2, p {
+    text-shadow: 0 0 5px white;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: linear-gradient(#e5989b, #1360e2);
+}
+
+#save-btn {
+    background: linear-gradient(#1360e2, #e5989b    );
+}
+
